@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="src/css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha256-tHoAPGoNdhIR28YHl9DWLzeRfdwigkH7OCBXMrHXhoM=" crossorigin="anonymous"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="js/script.js" defer></script>
-  <title>Choropleth Map</title>
+  <script src="src/js/script.js" defer></script>
+  <title>Open Source Stats</title>
 </head>
 <body>
   <div class="topbar">
@@ -23,7 +23,7 @@
       <div class="sidebar-section top-half">
         <h3>Top 5 Visualizations</h3>
         <ul>
-          <li><a href="chloropleth.html">Choropleth Map</a></li>
+          <li><a href="src/chloropleth.html">Choropleth Map</a></li>
           <li><a href="#">Bar Chart</a></li>
           <li><a href="#">Line Graph</a></li>
           <li><a href="#">Pie Chart</a></li>
@@ -46,6 +46,19 @@
     <div class="main-content">
       <h1 id="title">Open Source Stats</h1>
       <h3 id="description">By the community. For the community. Free stats for all.</h3>
+        <div class="today-i-learned">
+      <h4>Today I Learned</h4>
+      <div class="til-box">
+        <img src="src/images/world_population.png" alt="Fun fact visual" class="til-image">
+        <p class="til-text">
+          The world population exceeded 7 billion in 2012!
+        </p>
+        <p class="til-source">
+          Source: <a href="https://ourworldindata.org/population-growth" target="_blank">Our World in Data – Population Growth</a>
+        </p>
+      </div>
+    </div>
+
     </div>
   </div>
 </body>
