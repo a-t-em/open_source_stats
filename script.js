@@ -9,8 +9,8 @@ d3.json(loc_url).then(function(data){
     loc = topojson.feature(data, data.objects.counties).features;                 d3.json(edu_url).then(function(data){                       
     edu = data;                           
     draw();
-   })    
-})
+   });
+});
 
 var svg = d3.select('body')
   .append('svg')
@@ -32,7 +32,7 @@ var draw = function(){
               var id = d.id;
               var county = edu.find((d) => {
                     return d.fips === id;
-                  })
+                  });
               var percentage = county.bachelorsOrHigher;
               return colors[Math.floor(percentage/15)];
               })
@@ -40,8 +40,8 @@ var draw = function(){
             .attr('data-education', function(d){
                 var id = d.id;
                 var county = edu.find((d) => {
-                    return d.fips === id
-                })
+                    return d.fips === id;
+                });
                 var percentage = county.bachelorsOrHigher;
                 return percentage;
               })
@@ -62,8 +62,8 @@ var draw = function(){
                 tooltip.transition() 
                        .duration(200)
                        .style('opacity', 0);
-                })
-}
+                });
+};
 
 var labels = ['< 15%', '15% to 30%', '30% to 45%', '45% to 65%', '> 65%'];
 
@@ -80,7 +80,7 @@ d3.select("body")
   .attr('y', (d, i) => 40*i)
   .attr('width', '40px')
   .attr('height', '40px')
-  .style('fill', (d, i) => colors[i])
+  .style('fill', (d, i) => colors[i]);
 
 d3.select('#legend')
   .selectAll('text')
@@ -90,4 +90,4 @@ d3.select('#legend')
   .attr('x', 60)
   .attr('y', (d, i) => 25+40*i)
   .text((d, i) => labels[i])
-  .style('fill', 'white')
+  .style('fill', 'white');
