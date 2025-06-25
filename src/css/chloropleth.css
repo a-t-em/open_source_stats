@@ -10,6 +10,25 @@ body {
     margin: none;
 }
 
+.topbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.topbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topbar a:hover {
+  background-color: #575757;
+}
+
 #chart {
     background-color: white;
     padding: 10px;
@@ -36,7 +55,7 @@ body {
 #container {
     display: block;
     position: absolute;
-    margin-left: 0px; 
+    margin-left: 0px;
     margin-top: 0px;
     width: 100%;
 }

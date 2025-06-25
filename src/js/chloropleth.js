@@ -6,8 +6,8 @@ var edu;
 var colors = ['darkgreen', 'forestgreen', 'limegreen', 'lightgreen', '#e0ffdd'];
 
 d3.json(loc_url).then(function(data){
-    loc = topojson.feature(data, data.objects.counties).features;                 d3.json(edu_url).then(function(data){                       
-    edu = data;                           
+    loc = topojson.feature(data, data.objects.counties).features;                 d3.json(edu_url).then(function(data){
+    edu = data;
     draw();
    });
 });
@@ -49,17 +49,17 @@ var draw = function(){
                 var id = d.id;
                 var county = edu.find((d) => {
                   return d.fips === id;
-                });    
+                });
                 tooltip.attr('data-education', county.bachelorsOrHigher)
                   .transition()
-                  .duration(200)                  
+                  .duration(200)
                   .style('opacity', 0.9);
                 tooltip.html(county.state + ', ' + county.area_name + '<br>' + county.bachelorsOrHigher + '%')
                       .style('left', event.pageX + 'px')
-                      .style('top', event.pageY + 'px');    
+                      .style('top', event.pageY + 'px');
                 })
             .on('mouseout', function(d){
-                tooltip.transition() 
+                tooltip.transition()
                        .duration(200)
                        .style('opacity', 0);
                 });
