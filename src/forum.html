@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/forum.css">
+        <script src="js/forum.js" defer></script>
+        <title>Forum</title>
+    </head>
+    <body>
+      <!-- Reuse your topbar here -->
+      <div class="topbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html" >About</a>
+        <a href="#" style="color: teal; font-weight: bold;">Forum</a>
+        <a href="datasets.html" >Datasets</a>
+        <a href="visualization.html">Visualization</a>
+      </div>
+      <h1 id="title">Forum</h1>
+      <h3 id="description">Let's talk stats!</h3>
+      <div class="forum-container">
+        <!-- Sidebar: Discussion Groups -->
+        <aside class="forum-sidebar">
+          <h2>Discussion Groups</h2>
+          <ul>
+            <li><a href="#">General</a></li>
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Visualization</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </aside>
+
+        <!-- Main Content: Threads -->
+        <main class="forum-main">
+          <div class="sort-bar">
+            <span>Sort by:</span>
+            <button class="sort-btn active">🔥 Hot</button>
+            <button class="sort-btn">🆕 New</button>
+            <button class="sort-btn">💬 Most Discussed</button>
+          </div>
+
+          <div class="thread-list">
+            <div class="thread">
+              <h3><a href="#">How to visualize GDP growth with D3.js?</a></h3>
+              <p>Started by <strong>AdaLovelace</strong> · 42 replies · 1.2k views</p>
+            </div>
+            <div class="thread">
+              <h3><a href="#">Best open datasets for climate change research?</a></h3>
+              <p>Started by <strong>DataSeeker</strong> · 18 replies · 800 views</p>
+            </div>
+            <div class="thread">
+              <h3><a href="#">Showcase your favorite choropleth maps!</a></h3>
+              <p>Started by <strong>MapMaster</strong> · 65 replies · 2.3k views</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </body>
+</html>

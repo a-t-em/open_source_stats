@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/visualization.css">
+        <script src="js/visualization.js" defer></script>
+        <title>Visualization</title>
+    </head>
+    <body>
+  <!-- Reuse your topbar here -->
+      <div class="topbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="forum.html">Forum</a>
+        <a href="datasets.html">Datasets</a>
+        <a href="#" style="color: teal; font-weight: bold;">Visualization</a>
+      </div>
+      <h1 id="title">Data is beautiful</h1>
+      <h3 id="description">Show off your work!</h3>
+      <div class="visualization-container">
+        <!-- Sidebar Navigation -->
+        <aside class="viz-sidebar">
+          <h3>Filter by</h3>
+          <ul>
+            <li><a href="#by-type">📊 Graph Type</a></li>
+            <li><a href="#by-topic">🌍 Topic</a></li>
+          </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="viz-main">
+          <section id="by-type">
+            <h2>By Graph Type</h2>
+            <div class="viz-grid">
+              <div class="viz-card">
+                <a href="bar-chart.html">
+                  <img src="images/bar-chart-thumb.png" alt="Bar Chart Preview">
+                  <p>Bar Chart</p>
+                </a>
+              </div>
+              <div class="viz-card">
+                <a href="choropleth.html">
+                  <img src="images/chloropleth_thumb.png" alt="Choropleth Preview">
+                  <p>Choropleth Map</p>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section id="by-topic">
+            <h2>By Topic</h2>
+            <div class="viz-grid">
+              <div class="viz-card">
+                <a href="population-growth.html">
+                  <img src="images/population-thumb.png" alt="Population Growth Preview">
+                  <p>Population Growth</p>
+                </a>
+              </div>
+              <div class="viz-card">
+                <a href="gdp-comparison.html">
+                  <img src="images/gdp-thumb.png" alt="GDP Comparison Preview">
+                  <p>GDP Comparison</p>
+                </a>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </body>
+
+</html>
