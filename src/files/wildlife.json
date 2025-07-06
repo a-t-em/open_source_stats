@@ -1,0 +1,57 @@
+[
+  {
+    "project_name": "Save the Snow Leopards",
+    "region": "Central Asia",
+    "target_species": "Snow Leopard",
+    "conservation_status": "Vulnerable",
+    "threats": ["Poaching", "Habitat Loss", "Climate Change"],
+    "actions": ["Anti-poaching patrols", "Community education", "Habitat monitoring"],
+    "start_year": 2015,
+    "funding_usd_million": 3.2,
+    "partners": ["WWF", "Snow Leopard Trust"]
+  },
+  {
+    "project_name": "Amazon Rainforest Biodiversity Initiative",
+    "region": "South America",
+    "target_species": "Multiple (Jaguar, Harpy Eagle, Giant Otter)",
+    "conservation_status": "Varied",
+    "threats": ["Deforestation", "Illegal Logging", "Mining"],
+    "actions": ["Satellite monitoring", "Reforestation", "Indigenous land rights advocacy"],
+    "start_year": 2012,
+    "funding_usd_million": 12.5,
+    "partners": ["Rainforest Alliance", "Amazon Watch"]
+  },
+  {
+    "project_name": "African Elephant Corridor Program",
+    "region": "East Africa",
+    "target_species": "African Elephant",
+    "conservation_status": "Endangered",
+    "threats": ["Poaching", "Human-wildlife conflict"],
+    "actions": ["Wildlife corridors", "Ranger training", "Elephant tracking"],
+    "start_year": 2018,
+    "funding_usd_million": 5.7,
+    "partners": ["African Wildlife Foundation", "UNEP"]
+  },
+  {
+    "project_name": "Coral Reef Restoration Project",
+    "region": "Southeast Asia",
+    "target_species": "Coral species (Acropora, Porites)",
+    "conservation_status": "Threatened",
+    "threats": ["Ocean warming", "Pollution", "Overfishing"],
+    "actions": ["Coral farming", "Marine protected areas", "Tourism regulation"],
+    "start_year": 2020,
+    "funding_usd_million": 2.8,
+    "partners": ["Reef Check", "Blue Ventures"]
+  },
+  {
+    "project_name": "Tasmanian Devil Recovery Program",
+    "region": "Australia",
+    "target_species": "Tasmanian Devil",
+    "conservation_status": "Endangered",
+    "threats": ["Devil Facial Tumor Disease", "Habitat fragmentation"],
+    "actions": ["Captive breeding", "Disease research", "Habitat restoration"],
+    "start_year": 2010,
+    "funding_usd_million": 4.1,
+    "partners": ["Australian Wildlife Conservancy", "University of Tasmania"]
+  }
+]
