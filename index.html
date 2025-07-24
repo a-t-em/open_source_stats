@@ -1,133 +1,151 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>homepage</title>
-<style type="text/css">
-body {
-    background-color: white;
-	text-align: center;
-	margin: 0 auto;
-    padding-top: 60px;
-}
-</style>
-<link href="src/css/navigation.css" rel="stylesheet" type="text/css">
-<link href="src/css/index.css" rel="stylesheet" type="text/css">
-    
-</head>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <style type="text/css">
+    body {
+        background-color: white;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    </style>
+    <link href="src/css/navigation.css" rel="stylesheet" type="text/css">
+    <link href="src/css/index.css" rel="stylesheet" type="text/css">
 
-<center>
-<body>
-    
-    <!------------navigation------------>
-<div id="navi">
-    <div class="nav-container">
-        <div id="logo"><img src="src/images/logo.png" width="134" height="50" alt="OSS"/></div>
+    </head>
 
-        <a href="#" style="color: teal; font-weight: bold;" class="menu">Home</a>
-        <a href="src/visualization.html" class="menu">Visualization</a>
-        <a href="src/datasets.html" class="menu">Datasets</a>
-        <a href="src/forum.html" class="menu">Forum</a>
-        <a href="src/about.html" class="menu">About</a>
+    <body>
 
-        <div class="search-container">
-            <input type="text" class="search-box" placeholder="Search...">
-            <button class="search-button" type="submit">
-                <img src="src/images/magnifier-icon.png" class="search-icon" alt=""/>
-            </button>
-        </div>
+        <!------------navigation------------>
+    <div id="navi">
+        <div class="nav-container">
+            <div id="logo"><img src="src/images/logo.png" width="134" height="50" alt="OSS"/></div>
 
-        <div class="user">
-            <img src="src/images/usericon.jpeg" class="avatar" alt=""/>
-            <div class="content">
-                <a href="src/login.html">Login</a>
-                <a href="#">Exit</a>
+            <a href="#" style="color: teal; font-weight: bold;" class="menu">Home</a>
+            <a href="src/visualization.html" class="menu">Visualization</a>
+            <a href="src/datasets.html" class="menu">Datasets</a>
+            <a href="src/forum.html" class="menu">Forum</a>
+            <a href="src/about.html" class="menu">About</a>
+
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Search...">
+                <button class="search-button" type="submit">
+                    <img src="src/images/magnifier-icon.png" class="search-icon" alt=""/>
+                </button>
+            </div>
+
+            <div class="user">
+                <img src="src/images/usericon.jpeg" class="avatar" alt=""/>
+                <div class="content">
+                    <a href="src/login.html">Login</a>
+                    <a href="#">Exit</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
-	
-    <!------------welcome------------>
-<div id="welcome">
-    <div class="welcome-container">
-        <div class="left-text">
-            <h1>Welcome to Open Source Stats</h1>
-            <h3>By the community. For the community. Free stats for all.</h3>
-            <p>
-              Discover visualizations, access open datasets, and explore community-contributed insights.
-              Whether you're analyzing global trends or local data, our platform is your open-source data hub.
-            </p>
-        </div>
-        <div class="right-image">
-            <img src="src/images/data.jpg" alt="data" />
-        </div>
-    </div>
-</div>
 
-    <!------------top5 visualaziton------------>
-<div id="top-visualizations" class="section">
-    <h2>Top 5 Visualizations</h2>
-    <div class="card-container">
-        <div class="card">
-            <img src="src/images/US Educational Attainment.png" alt="US Educational Attainment">
-            <p>US Educational Attainment</p>
-        </div>
-        <div class="card">
-            <img src="src/images/Tuberculosis Stats.png" alt="Tuberculosis Stats">
-            <p>Tuberculosis Stats</p>
-        </div>
-        <div class="card">
-            <img src="src/images/Land Surface Temperature.png" alt="Land Surface Temperature">
-            <p>Land Surface Temperature</p>
-        </div>
-        <div class="card">
-            <img src="src/images/Video%20Game%20Sales.png" alt="Video Game Sales">
-            <p>Video Game Sales</p>
-        </div>
-        <div class="card">
-            <img src="src/images/US%20Flight%20Delays.png" alt="US Flight Delays">
-            <p>US Flight Delays</p>
+        <!------------welcome------------>
+    <div id="welcome">
+        <div class="welcome-container">
+            <div class="left-text">
+                <h1>Welcome to Open Source Stats</h1>
+                <h3>By the community. For the community. Free stats for all.</h3>
+                <p>
+                  Discover visualizations, access open datasets, and explore community-contributed insights.
+                  Whether you're analyzing global trends or local data, our platform is your open-source data hub.
+                </p>
+            </div>
+            <div class="right-image">
+                <img src="src/images/data.jpg" alt="data" />
+            </div>
         </div>
     </div>
-    <div class="more-link-container">
-        <a href="datasets.html" class="more-link">more  &rarr;</a>
+
+        <!------------top5 visualaziton------------>
+    <div id="top-visualizations" class="section">
+        <h2>Top 5 Visualizations</h2>
+        <div class="card-container">
+            <a href="src/chloropleth.html" class="linked-block">
+                <div class="card">
+                    <img src="src/images/US Educational Attainment.png" alt="US Educational Attainment">
+                    <p>US Educational Attainment</p>
+                </div>
+            </a>
+                <a href="src/tuberculosis.html" class="linked-block">
+                <div class="card">
+                    <img src="src/images/Tuberculosis Stats.png" alt="Tuberculosis Stats">
+                    <p>Tuberculosis Stats</p>
+                </div>
+            </a>
+            <a href="src/land_temp.html" class="linked-block">
+                <div class="card">
+                    <img src="src/images/Land Surface Temperature.png" alt="Land Surface Temperature">
+                    <p>Land Surface Temperature</p>
+                </div>
+            </a>
+            <a href="src/games.html" class="linked-block">
+                <div class="card">
+                    <img src="src/images/Video%20Game%20Sales.png" alt="Video Game Sales">
+                    <p>Video Game Sales</p>
+                </div>
+            </a>
+                <a href="src/flight.html" class="linked-block">
+                <div class="card">
+                    <img src="src/images/US%20Flight%20Delays.png" alt="US Flight Delays">
+                    <p>US Flight Delays</p>
+                </div>
+            </a>
+        </div>
+        <div class="more-link-container">
+            <a href="src/datasets.html" class="more-link">more  &rarr;</a>
+        </div>
     </div>
-</div>
-    
-    <!------------top5 datasets------------>
-<div id="top-datasets" class="section2">
-    <h2>Top 5 Datasets</h2>
-    <div class="card-container">
-        <div class="card">
-            <img src="src/images/WP.jpg" alt="WP">
-            <p>World population</p>
+
+        <!------------top5 datasets------------>
+    <div id="top-datasets" class="section2">
+        <h2>Top 5 Datasets</h2>
+        <div class="card-container">
+            <a href="src/files/world_population.csv" target="_blank" class="linked-block" download>
+                <div class="card">
+                    <img src="src/images/WP.jpg" alt="WP">
+                    <p>World population</p>
+                </div>
+            </a>
+            <a href="src/files/gdp_by_countries.csv" target="_blank" class="linked-block" download>
+                <div class="card">
+                    <img src="src/images/GDP.png" alt="GDP">
+                    <p>GDP by Country</p>
+                </div>
+            </a>
+            <a href="src/files/billionaires.json" target="_blank" class="linked-block" download>
+                <div class="card">
+                    <img src="src/images/BYC.jpg" alt="BYC">
+                    <p>Billionaires by Country</p>
+                </div>
+            </a>
+            <a href="src/files/wildlife.json" target="_blank" class="linked-block" download>
+                <div class="card">
+                    <img src="src/images/WCP.jpg" alt="WCP">
+                    <p>Wildlife Conservation Projects</p>
+                </div>
+            </a>
+            <a href="src/files/internet.csv" target="_blank" class="linked-block" download>
+                <div class="card">
+                    <img src="src/images/ICIA.jpg" alt="ICIA">
+                    <p>Internet Coverage in Africa</p>
+                </div>
+            </a>
         </div>
-        <div class="card">
-            <img src="src/images/GDP.png" alt="GDP">
-            <p>GDP by Country</p>
-        </div>
-        <div class="card">
-            <img src="src/images/BYC.jpg" alt="BYC">
-            <p>Billionaires by Country</p>
-        </div>
-        <div class="card">
-            <img src="src/images/WCP.jpg" alt="WCP">
-            <p>Wildlife Conservation Projects</p>
-        </div>
-        <div class="card">
-            <img src="src/images/ICIA.jpg" alt="ICIA">
-            <p>Internet Coverage in Africa</p>
+        <div class="more-link-container">
+            <a href="src/datasets.html" class="more-link">more  &rarr;</a>
         </div>
     </div>
-    <div class="more-link-container">
-        <a href="datasets.html" class="more-link">more  &rarr;</a>
-    </div>
-</div>
-    
-    <footer class="footer">
-        <p>&copy; 2025 Open Source Stats. All rights reserved.</p>
-    </footer>
-    
-</body>
-</center>
+
+        <footer class="footer">
+            <p>&copy; 2025 Open Source Stats. All rights reserved.</p>
+        </footer>
+
+    </body>
 </html>
