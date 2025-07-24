@@ -10,24 +10,6 @@ body {
     margin: none;
 }
 
-.topbar {
-  background-color: #333;
-  overflow: hidden;
-  padding: 10px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.topbar a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.topbar a:hover {
-  background-color: #575757;
-}
 html {
   background-color: whitesmoke;
 }
@@ -54,8 +36,8 @@ svg {
     text-align: right;
     height: 60px;
     width: 350px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 350px;
+    margin-right: 300px;
     padding-left: 10px;
     border-radius: 5px;
 }

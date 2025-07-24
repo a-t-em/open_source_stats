@@ -1,6 +1,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            background-color: white;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 60px;
+        }
+    </style>
+  <link href="css/navigation.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/tuberculosis.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha256-tHoAPGoNdhIR28YHl9DWLzeRfdwigkH7OCBXMrHXhoM=" crossorigin="anonymous"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -8,13 +17,33 @@
   <title>Tuberculosis Stats</title>
 </head>
 <body>
-  <div class="topbar">
-    <a href="../index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="forum.html">Forum</a>
-    <a href="datasets.html">Datasets</a>
-    <a href="visualization.html">Visualization</a>
-  </div>
+    
+    <div id="navi">
+        <div class="nav-container">
+            <div id="logo"><img src="images/logo.png" width="134" height="50" alt="OSS"/></div>
+            <a href="../index.html" class="menu">Home</a>
+            <a href="visualization.html" class="menu">Visualization</a>
+            <a href="datasets.html" class="menu">Datasets</a>
+            <a href="forum.html" class="menu">Forum</a>
+            <a href="about.html" class="menu">About</a>
+
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Search...">
+                <button class="search-button" type="submit">
+                    <img src="images/magnifier-icon.png" class="search-icon" alt=""/>
+                </button>
+            </div>
+
+            <div class="user">
+                <img src="images/usericon.jpeg" class="avatar" alt=""/>
+                <div class="content">
+                    <a href="login.html">Login</a>
+                    <a href="../index.html">Exit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
   <h1 id="title">Tuberculosis Deaths By Year</h1>
   <h3 id="description">Estimated Number of Deaths from Tuberculosis by Region and Year (1996-2000)</h3>
   <div class='tableauPlaceholder' id='viz1751802481726' style='position: relative'>

@@ -99,8 +99,8 @@ var tooltip = d3.select('body')
 });
 
 svg.append("text")
-      .attr("x", 0)
-      .attr("y", 5)
+      .attr("x", 300)
+      .attr("y", -20)
       .text("Video Game Sales")
       .attr("font-size", "35px")
       .attr("fill",  "white" )
@@ -108,8 +108,8 @@ svg.append("text")
 
 svg.append("text")
       .attr('id', 'description')
-      .attr("x", 285)
-      .attr("y", 5)
+      .attr("x", 100)
+      .attr("y", 25)
       .text("Top 100 Most Sold Video Games Grouped by Platform")
       .attr("font-size", "27px")
       .attr("fill",  "white" );
