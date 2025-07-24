@@ -1,0 +1,68 @@
+[
+  {
+    "country": "United States",
+    "billionaires": 735,
+    "total_net_worth_usd_billion": 4600,
+    "notable_billionaires": [
+      { "name": "Elon Musk", "net_worth": 230, "industry": "Technology" },
+      { "name": "Jeff Bezos", "net_worth": 150, "industry": "E-commerce" },
+      { "name": "Warren Buffett", "net_worth": 110, "industry": "Finance" },
+      { "name": "Mark Zuckerberg", "net_worth": 95, "industry": "Social Media" }
+    ]
+  },
+  {
+    "country": "China",
+    "billionaires": 495,
+    "total_net_worth_usd_billion": 1800,
+    "notable_billionaires": [
+      { "name": "Zhong Shanshan", "net_worth": 65, "industry": "Beverages" },
+      { "name": "Jack Ma", "net_worth": 40, "industry": "E-commerce" },
+      { "name": "Ma Huateng", "net_worth": 45, "industry": "Technology" },
+      { "name": "He Xiangjian", "net_worth": 30, "industry": "Home Appliances" }
+    ]
+  },
+  {
+    "country": "India",
+    "billionaires": 169,
+    "total_net_worth_usd_billion": 780,
+    "notable_billionaires": [
+      { "name": "Mukesh Ambani", "net_worth": 90, "industry": "Energy" },
+      { "name": "Gautam Adani", "net_worth": 70, "industry": "Infrastructure" },
+      { "name": "Shiv Nadar", "net_worth": 25, "industry": "Technology" },
+      { "name": "Radhakishan Damani", "net_worth": 20, "industry": "Retail" }
+    ]
+  },
+  {
+    "country": "Germany",
+    "billionaires": 134,
+    "total_net_worth_usd_billion": 620,
+    "notable_billionaires": [
+      { "name": "Dieter Schwarz", "net_worth": 45, "industry": "Retail" },
+      { "name": "Susanne Klatten", "net_worth": 30, "industry": "Automotive" },
+      { "name": "Stefan Quandt", "net_worth": 25, "industry": "Automotive" },
+      { "name": "Theo Albrecht Jr.", "net_worth": 20, "industry": "Retail" }
+    ]
+  },
+  {
+    "country": "Russia",
+    "billionaires": 105,
+    "total_net_worth_usd_billion": 470,
+    "notable_billionaires": [
+      { "name": "Vladimir Potanin", "net_worth": 25, "industry": "Metals" },
+      { "name": "Leonid Mikhelson", "net_worth": 22, "industry": "Energy" },
+      { "name": "Alexey Mordashov", "net_worth": 20, "industry": "Steel" },
+      { "name": "Alisher Usmanov", "net_worth": 18, "industry": "Mining" }
+    ]
+  },
+  {
+    "country": "France",
+    "billionaires": 43,
+    "total_net_worth_usd_billion": 550,
+    "notable_billionaires": [
+      { "name": "Bernard Arnault", "net_worth": 200, "industry": "Luxury Goods" },
+      { "name": "Françoise Bettencourt Meyers", "net_worth": 90, "industry": "Cosmetics" },
+      { "name": "Alain Wertheimer", "net_worth": 25, "industry": "Fashion" },
+      { "name": "Gérard Wertheimer", "net_worth": 25, "industry": "Fashion" }
+    ]
+  }
+]

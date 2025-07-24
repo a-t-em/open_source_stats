@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>forum</title>
+<style type="text/css">
+body {
+    background-color: white;
+	text-align: center;
+	margin: 0 auto;
+    padding-top: 60px; /* 为固定导航栏留出空间 */
+}
+</style>
+<link href="css/navigation.css" rel="stylesheet" type="text/css">
+<link href="css/forum.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<center>
+<body>
+    
+    <!------------navigation------------>
+<div id="navi">
+    <div class="nav-container">
+        <div id="logo"><img src="images/logo.png" width="134" height="50" alt="OSS"/></div>
+
+        <a href="../index.html" class="menu">Home</a>
+        <a href="visualization.html" class="menu">Visualization</a>
+        <a href="datasets.html" class="menu">Datasets</a>
+        <a href="forum.html" style="color: teal; font-weight: bold;" class="menu">Forum</a>
+        <a href="about.html" class="menu">About</a>
+
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Search...">
+            <button class="search-button" type="submit">
+                <img src="images/magnifier-icon.png" class="search-icon" alt=""/>
+            </button>
+        </div>
+
+        <div class="user">
+            <img src="images/usericon.jpeg" class="avatar" alt=""/>
+            <div class="content">
+                <a href="#">Login</a>
+                <a href="#">Exit</a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!------------banner------------>  
+<div id="banner">
+    <div class="banner-container">
+        <img src="images/forum-banner.png" alt=""/>
+    </div>
+</div>
+    
+    <!------------forum------------>  
+<h1 id="title">Forum</h1>
+<h3 id="description">Let's talk stats!</h3>
+<div class="forum-container">
+        <!-- Sidebar: Discussion Groups -->
+        <aside class="forum-sidebar">
+          <h2>Discussion Groups</h2>
+          <ul>
+            <li><a href="#">General</a></li>
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Visualization</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </aside>
+
+        <!-- Main Content: Threads -->
+        <main class="forum-main">
+          <div class="sort-bar">
+            <span>Sort by:</span>
+            <button class="sort-btn active">🔥 Hot</button>
+            <button class="sort-btn">🆕 New</button>
+            <button class="sort-btn">💬 Most Discussed</button>
+          </div>
+
+          <div class="thread-list">
+            <div class="thread">
+              <h3><a href="#">How to visualize GDP growth with D3.js?</a></h3>
+              <p>Started by <strong>AdaLovelace</strong> · 42 replies · 1.2k views</p>
+            </div>
+            <div class="thread">
+              <h3><a href="#">Best open datasets for climate change research?</a></h3>
+              <p>Started by <strong>DataSeeker</strong> · 18 replies · 800 views</p>
+            </div>
+            <div class="thread">
+              <h3><a href="#">Showcase your favorite choropleth maps!</a></h3>
+              <p>Started by <strong>MapMaster</strong> · 65 replies · 2.3k views</p>
+            </div>
+          </div>
+        </main>
+      </div>
+
+    <!------------------------------>   
+<footer class="footer">
+    <div class="footer-container">
+        <p>&copy; 2025 Open Source Stats. All rights reserved.</p>
+    </div>
+</footer>
+    
+    
+</body>
+</center>
+</html>

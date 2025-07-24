@@ -1,0 +1,36 @@
+Country,Year,Internet_Coverage_Percentage
+Nigeria,2015,18.4
+Nigeria,2017,23.1
+Nigeria,2019,28.7
+Nigeria,2021,34.5
+Nigeria,2023,40.2
+Kenya,2015,22.9
+Kenya,2017,28.4
+Kenya,2019,34.1
+Kenya,2021,40.3
+Kenya,2023,46.7
+Ethiopia,2015,8.2
+Ethiopia,2017,12.5
+Ethiopia,2019,17.9
+Ethiopia,2021,23.6
+Ethiopia,2023,29.4
+Tanzania,2015,11.7
+Tanzania,2017,16.3
+Tanzania,2019,21.8
+Tanzania,2021,27.5
+Tanzania,2023,33.1
+Uganda,2015,13.5
+Uganda,2017,18.9
+Uganda,2019,24.3
+Uganda,2021,30.2
+Uganda,2023,36.0
+Ghana,2015,20.1
+Ghana,2017,25.6
+Ghana,2019,31.4
+Ghana,2021,37.2
+Ghana,2023,43.5
+South Africa,2015,35.8
+South Africa,2017,41.2
+South Africa,2019,47.6
+South Africa,2021,53.9
+South Africa,2023,60.3

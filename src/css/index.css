@@ -1,0 +1,141 @@
+/*---------------------welcome---------------------*/
+#welcome {
+    width: 100%;
+    background-color: #d4e5f7;
+    padding: 60px 0;
+}
+
+.welcome-container {
+    width: auto;
+    min-width: 100px;
+    max-width: 1200px;
+    padding: 0 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Split Layout */
+.split-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+}
+
+.left-text {
+  flex: 1;
+  min-width: 260px;
+}
+
+.left-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #222;
+    text-align: left;
+}
+
+.left-text h3 {
+    color: #444;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.left-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Right image block */
+.right-image {
+  flex: 1 1 400px;
+  min-width: 400px;
+  text-align: center;
+}
+
+.right-image img {
+  max-width: 500px;
+   width: 100%; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.section2 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #d4e5f7;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.section2 h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 180px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 80%;
+    border-radius: 4px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.more-link-container {
+    text-align: right;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.more-link {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.more-link:hover {
+    color: #0056b3;
+}
