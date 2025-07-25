@@ -1,7 +1,7 @@
 body {
     min-width: 100%;
     min-height: 100%;
-    background-color: #d4e5f7;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,4 +48,9 @@ svg {
     margin-right: 300px;
     padding-left: 10px;
     border-radius: 5px;
+}
+
+#x-axis text,
+#y-axis text {
+  fill: black;
 }
