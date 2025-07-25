@@ -101,6 +101,10 @@ html, body {
   flex-direction: column;
 }
 
+main {
+  flex: 1;
+}
+
 .footer {
     background-color: #d4e5f7;
     color: white;
