@@ -1,13 +1,21 @@
 body {
     min-width: 100%;
     min-height: 100%;
-    background-color: #021691;
+    background-color: #d4e5f7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     margin: none;
+}
+
+#title{
+    color:black;
+}
+
+h3{
+    color: black;
 }
 
 html {

@@ -1,7 +1,7 @@
 body {
     min-width: 100%;
     min-height: 100%;
-    background-color: #021691;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,6 +10,9 @@ body {
     margin: none;
 }
 
+#title{
+    color: black;
+}
 
 #tooltip {
   position: absolute;

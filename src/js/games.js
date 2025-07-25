@@ -103,7 +103,7 @@ svg.append("text")
       .attr("y", -20)
       .text("Video Game Sales")
       .attr("font-size", "35px")
-      .attr("fill",  "white" )
+      .attr("fill",  "black" )
       .style('font-weight', 'bold');
 
 svg.append("text")
@@ -112,7 +112,7 @@ svg.append("text")
       .attr("y", 25)
       .text("Top 100 Most Sold Video Games Grouped by Platform")
       .attr("font-size", "27px")
-      .attr("fill",  "white" );
+      .attr("fill",  "black" );
 
 d3.select('#legend')
      .selectAll('rect')
