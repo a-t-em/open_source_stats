@@ -1,76 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/navigation.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/about.css">
-        <script src="js/about.js" defer></script>
-        <style type="text/css">
-            body {
-                background-color: white;
-                text-align: center;
-                margin: 0 auto;
-                padding-top: 60px;
-            }
-        </style>
-        <title>About</title>
-    </head>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About</title>
+<style type="text/css">
+body {
+    background-color: white;
+	text-align: center;
+	margin: 0 auto;
+    padding-top: 60px; 
+}
+</style>
+<link href="css/navigation.css" rel="stylesheet" type="text/css">
+<link href="css/about.css" rel="stylesheet" type="text/css">
     
-    <body>
-          <!------------navigation------------>
-    <div id="navi">
-        <div class="nav-container">
-            <div id="logo"><img src="images/logo.png" width="134" height="50" alt="OSS"/>
-            </div>
-            <a href="../index.html" class="menu">Home</a>
-            <a href="visualization.html" class="menu">Visualization</a>
-            <a href="datasets.html" class="menu">Datasets</a>
-            <a href="forum.html" class="menu">Forum</a>
-            <a href="#" style="color: teal; font-weight: bold;" class="menu">About</a>
+</head>
 
-            <div class="search-container">
-                <input type="text" class="search-box" placeholder="Search...">
-                <button class="search-button" type="submit">
-                    <img src="images/magnifier-icon.png" class="search-icon" alt=""/>
-                </button>
-            </div>
+<center>
+<body>
+    
+    <!------------navigation------------>
+<div id="navi">
+    <div class="nav-container">
+        <div id="logo"><img src="images/logo.png" width="134" height="50" alt="OSS"/></div>
+        
+        <a href="../index.html" class="menu">Home</a>
+        <a href="visualization.html" class="menu">Visualization</a>
+        <a href="datasets.html" class="menu">Datasets</a>
+        <a href="forum.html" class="menu">Forum</a>
+        <a href="about.html"  style="color: teal; font-weight: bold;"  class="menu">About</a>
 
-            <div class="user">
-                <img src="images/usericon.jpeg" class="avatar" alt=""/>
-                <div class="content">
-                    <a href="login.html">Login</a>
-                    <a href="#">Exit</a>
-                </div>
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Search...">
+            <button class="search-button" type="submit">
+                <img src="images/magnifier-icon.png" class="search-icon" alt=""/>
+            </button>
+        </div>
+
+        <div class="user">
+            <img src="images/usericon.jpeg" class="avatar" alt=""/>
+            <div class="content">
+                <a href="login.html">Login</a>
+                <a href="../index.html">Exit</a>
             </div>
         </div>
     </div>
-     
+</div>
 
-    <main class="about-section">
-        <div class="section">
-            <h1 id="title">About Open Source Stats</h1>
-            <h3 id="description">For those who are curious</h3>
-            <hr>
-            <h4>What's this about?</h4>
+    <!------------banner------------>  
+<div id="banner">
+    <div class="banner-container">
+        <img src="images/about-banner.png" alt=""/>
+    </div>
+</div>
+
+    <!------------------------------------->
+
+<header class="page-header">
+    <h1>About Open Source Stats</h1>
+    <p class="subtitle">For those who are curious</p>
+</header>
+
+<div class="container">
+    
+    <div class="image-text-pair">
+        <div class="image-section">
+            <img src="images/about1.png" alt="Open Source Illustration">
+        </div>
+        <div class="text-section">
+            <h2>What's this about?</h2>
             <p>This is a free and open source website for sharing data visualizations and datasets. It pledges to remain free and ad-free to provide the best user experience.</p>
-            <hr>
-            <h4>How to contribute?</h4>
+        </div>
+    </div>
+
+    <div class="image-text-pair">
+        <div class="text-section">
+            <h2>How to contribute?</h2>
             <p>Users can post their visualizations and datasets in their respective sections. They will be made publicly available on the website after an AI content moderation process. Users can also post in forums, creating comment threads and responding to different topics.</p>
-            <hr>
-            <h4>How to become popular?</h4>
+        </div>
+        <div class="image-section">
+            <img src="images/about3.png" alt="Contribution Illustration">
+        </div>
+    </div>
+
+            <!-- 第三行：左图右字 -->
+    <div class="image-text-pair">
+        <div class="image-section">
+            <img src="images/about2.png" alt="Popularity Illustration" class="content-image">
+        </div>
+        <div class="text-section">
+            <h2>How to become popular?</h2>
             <p>The visibility of a post is mainly determined by the number of likes and interactions (e.g. comments). To prevent spamming, we have trained a machine learning model to detect dishonest behavior, which will be reviewed and handled by human moderators. Penalty might involve deletion of the post.</p>
-            <hr>
-            <h4>Any jobs?</h4>
+        </div>
+    </div>
+
+    <div class="image-text-pair">
+        <div class="text-section">
+            <h2>Any jobs?</h2>
             <p>We are an free and open source website. We don't make any revenue so we don't offer paid employment. If you would like to contribute your expertise - in software development, translation, marketing etc. - you can contact us at <a href="mailto:OpenSourceStats@gmail.com">OpenSourceStats@gmail.com</a></p>
-            <p>If you're a developer, you're also welcome to submit a pull request to <a href="https://github.com/a-t-em/open_source_stats">our GitHub project</a>. We recommend working on the TODO items in the issues tab to improve your chances of getting your work merged.</p>
+                           <p>If you're a developer, you're also welcome to submit a pull request to our GitHub project. We recommend working on the TODO items in the issues tab to improve your chances of getting your work merged.</p>
         </div>
-    </main>
-        
-        <footer class="footer">
-        <div class="footer-container">
-            <p>&copy; 2025 Open Source Stats. All rights reserved.</p>
+        <div class="image-section">
+            <img src="images/mail.png" alt="Jobs Illustration">
         </div>
-        </footer>
-    </body>
+    </div>
+</div>
+<br><br><br>
+    <!------------------------------>   
+<footer class="footer">
+    <div class="footer-container">
+        <p>&copy; 2025 Open Source Stats. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</center>
 </html>
