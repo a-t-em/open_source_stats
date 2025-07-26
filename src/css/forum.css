@@ -4,10 +4,9 @@
 
 .banner-container {
     width: auto;
-    min-width: 1000px;
+    min-width: 100px;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 80px;
     align-items: center;
 }
 
