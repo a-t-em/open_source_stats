@@ -15,7 +15,6 @@
     align-items: center;
 }
 
-/* Split Layout */
 .split-content {
     display: flex;
     justify-content: space-between;
@@ -50,7 +49,6 @@
     text-align: left;
 }
 
-/* Right image block */
 .right-image {
   flex: 1 1 400px;
   min-width: 400px;

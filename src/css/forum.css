@@ -12,10 +12,10 @@
 }
 
 .banner-container img {
-    width: 100%; /* 图片宽度填充容器 */
-    height: auto; /* 高度自动保持比例 */
-    display: block; /* 消除图片底部间隙 */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* 可选：阴影效果 */
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .page-header {
