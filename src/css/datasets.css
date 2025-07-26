@@ -18,23 +18,27 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-#title{
-    font-size: 50px;
+.page-header {
     text-align: center;
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
 }
 
-#description{
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.page-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
 }
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
 .container {
-  display: flex;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .dataset-sidebar {
@@ -85,6 +89,14 @@
   margin-top: 0;
   border-bottom: 2px solid #eee;
   padding-bottom: 5px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 80px;
 }
 
 .footer {

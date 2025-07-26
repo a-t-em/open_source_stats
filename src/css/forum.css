@@ -18,114 +18,118 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* 可选：阴影效果 */
 }
 
-#title{
-    font-size: 32px;
+.page-header {
     text-align: center;
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
 }
 
-#description{
-    font-size: 24px;
-    text-align: center;
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.page-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-style: italic;
 }
 
 .forum-container {
     display: flex;
-    margin-bottom: 50px;
     max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
 }
 
 .forum-sidebar {
-  width: 220px;
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-right: 1px solid #ddd;
+    width: 220px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
 }
 
 .forum-sidebar h2 {
-  margin-top: 0;
-  font-size: 1.2em;
-  color: #333;
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
 }
 
 .forum-sidebar ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 .forum-sidebar li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .forum-sidebar a {
-  text-decoration: none;
-  color: #0077cc;
+    text-decoration: none;
+    color: #0077cc;
 }
 
 .forum-main {
-  flex-grow: 1;
-  padding: 30px;
+    width: 980px;
+    flex-grow: 1;
+    padding: 30px;
 }
 
 .sort-bar {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .sort-btn {
-  background-color: #eee;
-  border: none;
-  padding: 6px 12px;
-  cursor: pointer;
-  border-radius: 4px;
+    background-color: #eee;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .sort-btn.active {
-  background-color: #0077cc;
-  color: white;
+    background-color: #0077cc;
+    color: white;
 }
 .thread-list {
     padding-bottom: 160px;
 }
 
 .thread-list .thread {
-  border-bottom: 1px solid #ddd;
-  padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
     text-align: left;
 }
 
 .thread h3 {
-  margin: 0;
+    margin: 0;
 }
 
 .thread h3 a {
-  color: #333;
-  text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
 
 .thread p {
-  margin: 5px 0 0;
-  font-size: 0.9em;
-  color: #666;
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #666;
 }
 
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .page-content {
-  flex: 1;
+    flex: 1;
 }
 
 .footer {
